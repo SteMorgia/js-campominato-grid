@@ -1,5 +1,12 @@
 const gridDom = document.getElementById('grid');
-const divSquare = document.createElement('div');
 for (let i = 0; i < 100; i++) {
-    
+    const divSquare = document.createElement('div');
+    gridDom.append(divSquare);
+    divSquare.classList.add('square');
 }
+
+
+
+
+
+function generaNumeri ()
